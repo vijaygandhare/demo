@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 613.224 s <<< FAILURE! - in TestSuite
+Demo.E2EProject.HomePageTest.initialize  Time elapsed: 596.802 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WL362390', ip: '192.36.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010B3733+2504499]
+	Ordinal0 [0x0104C401+2081793]
+	Ordinal0 [0x00F52628+1058344]
+	Ordinal0 [0x00F44EBF+1003199]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F4A6DD+1025757]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F44986+1001862]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F4990C+1022220]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F44986+1001862]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F3F5DD+980445]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F43800+997376]
+	Ordinal0 [0x00F43599+996761]
+	Ordinal0 [0x00F53830+1062960]
+	Ordinal0 [0x00F9ABB9+1354681]
+	Ordinal0 [0x00F997DA+1349594]
+	Ordinal0 [0x00F95D4B+1334603]
+	Ordinal0 [0x00F722B4+1188532]
+	Ordinal0 [0x00F73149+1192265]
+	GetHandleVerifier [0x0122FB8C+1512252]
+	GetHandleVerifier [0x012DB0DF+2214031]
+	GetHandleVerifier [0x01134BC3+484211]
+	GetHandleVerifier [0x01133E69+480793]
+	Ordinal0 [0x0105218D+2105741]
+	Ordinal0 [0x010566E8+2123496]
+	Ordinal0 [0x01056827+2123815]
+	Ordinal0 [0x0105FB73+2161523]
+	BaseThreadInitThunk [0x76696359+25]
+	RtlGetAppContainerNamedObjectPath [0x776F8944+228]
+	RtlGetAppContainerNamedObjectPath [0x776F8914+180]
+
+	at Demo.E2EProject.HomePageTest.initialize(HomePageTest.java:25)
+
+Demo.E2EProject.ValidateTittleTest.initialize  Time elapsed: 596.803 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WL362390', ip: '192.36.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010B3733+2504499]
+	Ordinal0 [0x0104C401+2081793]
+	Ordinal0 [0x00F52628+1058344]
+	Ordinal0 [0x00F44EBF+1003199]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F4A6DD+1025757]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F44986+1001862]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F4990C+1022220]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F44986+1001862]
+	Ordinal0 [0x00F43EF9+999161]
+	Ordinal0 [0x00F441B6+999862]
+	Ordinal0 [0x00F43AA5+998053]
+	Ordinal0 [0x00F3F5DD+980445]
+	Ordinal0 [0x00F43A61+997985]
+	Ordinal0 [0x00F43800+997376]
+	Ordinal0 [0x00F43599+996761]
+	Ordinal0 [0x00F53830+1062960]
+	Ordinal0 [0x00F9ABB9+1354681]
+	Ordinal0 [0x00F997DA+1349594]
+	Ordinal0 [0x00F95D4B+1334603]
+	Ordinal0 [0x00F722B4+1188532]
+	Ordinal0 [0x00F73149+1192265]
+	GetHandleVerifier [0x0122FB8C+1512252]
+	GetHandleVerifier [0x012DB0DF+2214031]
+	GetHandleVerifier [0x01134BC3+484211]
+	GetHandleVerifier [0x01133E69+480793]
+	Ordinal0 [0x0105218D+2105741]
+	Ordinal0 [0x010566E8+2123496]
+	Ordinal0 [0x01056827+2123815]
+	Ordinal0 [0x0105FB73+2161523]
+	BaseThreadInitThunk [0x76696359+25]
+	RtlGetAppContainerNamedObjectPath [0x776F8944+228]
+	RtlGetAppContainerNamedObjectPath [0x776F8914+180]
+
+	at Demo.E2EProject.ValidateTittleTest.initialize(ValidateTittleTest.java:26)
+

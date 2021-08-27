@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Demo.E2EProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ValidateTittleTest(failed)" verbose="0">
+    <classes>
+      <class name="Demo.E2EProject.ValidateTittleTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="verifyAppTittle"/>
+        </methods>
+      </class> <!-- Demo.E2EProject.ValidateTittleTest -->
+    </classes>
+  </test> <!-- ValidateTittleTest(failed) -->
+  <test thread-count="5" parallel="tests" name="HomePageTest(failed)" verbose="0">
+    <classes>
+      <class name="Demo.E2EProject.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Demo.E2EProject.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
